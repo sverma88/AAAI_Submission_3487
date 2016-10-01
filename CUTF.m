@@ -48,8 +48,8 @@ for j=1:Iterate_experiments
 
  
 for i=1:Train_Classes
-    Train_Tensor{i,j}=Tensor_Data(index(j,i),1:5000,:,:);
-    Test_Tensor{i,j}=Tensor_Data(index(j,i),5001:6000,:,:);
+    Train_Tensor{i,j}=Tensor_Data(index(j,i),1:Total_Training_images,:,:);
+    Test_Tensor{i,j}=Tensor_Data(index(j,i),Total_Training_images+1:Total_Training_images+Total_Testing_images,:,:);
 end
 
 tic
