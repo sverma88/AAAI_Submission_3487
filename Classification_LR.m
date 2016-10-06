@@ -1,4 +1,4 @@
-% Function to Compute Distance of projected Images and calculate Accuracy
+% Function to Cclassify data points using Logistic Regression classifier
 
 function [Error,Predicted_Labels]=Classification_LR(Projected_Images_Training,Train_Labels,Projected_Images_Testing,Ground_Labels)
 
@@ -10,7 +10,7 @@ function [Error,Predicted_Labels]=Classification_LR(Projected_Images_Training,Tr
 % Ground_Labels                  : Ground Truth for each testing Image
 %
 % Output
-% Error                          : Error of classification using svm
+% Error                          : Error of classification using Logistic Regression
 % 
 % 
 % Author                         : Sunny Verma (sunnyverma.iitd@gmail.com)

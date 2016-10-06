@@ -1,4 +1,4 @@
-% Function to Compute Distance of projected Images and calculate Accuracy
+% Function to classify data points using SVM classifier
 
 function [Error,Predicted_Labels]=Classification_SVM(Projected_Images_Training,Train_Labels,Projected_Images_Testing,Ground_Labels)
 

@@ -1,4 +1,5 @@
-% Function to Compute Distance of projected Images and calculate Accuracy
+% Function to classify data points using K- nearest neighbor classifier
+
 
 function [Error,Predicted_Labels]=Classification_KNN(Projected_Images_Training,Train_Labels,Projected_Images_Testing,Ground_Labels)
 
@@ -10,7 +11,7 @@ function [Error,Predicted_Labels]=Classification_KNN(Projected_Images_Training,T
 % Ground_Labels                  : Ground Truth for each testing Image
 %
 % Output
-% Error                          : Error of classification using svm
+% Error                          : Error of classification using KNN
 % 
 % 
 % Author                         : Sunny Verma (sunnyverma.iitd@gmail.com)

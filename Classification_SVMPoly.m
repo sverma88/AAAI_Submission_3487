@@ -1,4 +1,4 @@
-% Function to Compute Distance of projected Images and calculate Accuracy
+% Function to Classify data points using SVM-Polynomial kernel classifier
 
 function [Error,Predicted_Labels]=Classification_SVMPoly(Projected_Images_Training,Train_Labels,Projected_Images_Testing,Ground_Labels)
 
@@ -10,7 +10,7 @@ function [Error,Predicted_Labels]=Classification_SVMPoly(Projected_Images_Traini
 % Ground_Labels                  : Ground Truth for each testing Image
 %
 % Output
-% Error                          : Error of classification using svm
+% Error                          : Error of classification using svm-poly
 % 
 % 
 % Author                         : Sunny Verma (sunnyverma.iitd@gmail.com)
