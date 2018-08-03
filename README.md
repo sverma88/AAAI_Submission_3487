@@ -1,5 +1,5 @@
-# AAAI_Submission_3487
-AAAI Submission Poster 3487
+# Common and Unique Tensor Factorization, AAAI 2017 
+Extracting Highly Effective Features for Supervised Learning via Simultaneous Tensor Factorization, Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence, February 4-9, 2017, San Francisco, California, {USA.}
 
 # Tensor Toolbox
 Please download tensor toolbox from http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
